@@ -1,0 +1,2 @@
+rootProject.name='DynamicForms'
+include ':app'

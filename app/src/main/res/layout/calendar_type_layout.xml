@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/some_label"
+        android:theme="@style/TextInputLayoutAppearance">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieInput"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

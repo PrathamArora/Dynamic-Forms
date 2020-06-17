@@ -1,0 +1,104 @@
+{
+  "inputs": [
+    {
+      "id": "1",
+      "field_name": "Name",
+      "field_type": "text",
+      "required": "true",
+      "default": "",
+      "validations": {
+        "min_length": "3",
+        "max_length": "50"
+      }
+    },
+    {
+      "id": "2",
+      "field_name": "Email",
+      "field_type": "email",
+      "required": "true",
+      "default": "",
+      "validations": {
+      }
+    },
+    {
+      "id": "3",
+      "field_name": "Zip Code",
+      "field_type": "number",
+      "required": "false",
+      "default": "60606",
+      "validations": {
+        "min_length": "6",
+        "max_length": "6"
+      }
+    },
+    {
+      "id": "4",
+      "field_name": "phone",
+      "field_type": "phone",
+      "required": "true",
+      "default": "",
+      "validations": {
+        "min_length": "10",
+        "max_length": "10"
+      }
+    },
+    {
+      "id": "1",
+      "field_name": "Gender",
+      "field_type": "radiobutton",
+      "required": "true",
+      "default": "1",
+      "validations": {
+      },
+      "values": [
+        {
+          "label": "Male",
+          "_id": "1"
+        },
+        {
+          "label": "Female",
+          "_id": "2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "field_name": "Property Nearby",
+      "field_type": "checkbox",
+      "required": "true",
+      "default": "",
+      "validations": {
+      },
+      "values": [
+        {
+          "label": "Temple",
+          "_id": "1"
+        },
+        {
+          "label": "Mother Diary",
+          "_id": "2"
+        },
+        {
+          "label": "Metro Station",
+          "_id": "3"
+        },
+        {
+          "label": "Playground",
+          "_id": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "field_name": "Start Date",
+      "field_type": "date",
+      "required": "true",
+      "default": "22/4/2020",
+      "format": "dd/MM/yyyy",
+      "validations": {
+        "min_date": "1/1/2018",
+        "max_date": "1/1/2022"
+      }
+    }
+  ]
+}

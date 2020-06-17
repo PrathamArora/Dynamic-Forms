@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DynamicForms</string>
+    <string name="loading_form_items">Loading Form Items</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="next">Next</string>
+    <string name="some_label">Some Label</string>
+    <string name="new_form">New Form</string>
+    <string name="filled_details">Filled Details</string>
+    <string name="back_button">back_button</string>
+</resources>
